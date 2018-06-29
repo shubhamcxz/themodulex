@@ -17,4 +17,6 @@ setup(name='themodulex',
       license='MIT',
       packages=['themodulex'],
       username="shubhamcxz",
+      install_requires=['numpy',],
+      # dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'] # when dependency is not on pypi
       zip_safe=False)
