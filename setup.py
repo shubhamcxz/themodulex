@@ -30,5 +30,7 @@ setup(name='themodulex',
       username="shubhamcxz",
       install_requires=['numpy',],
       include_package_data=True,  # check what it does.
+      test_suite='nose.collector',
+      tests_require=['nose'],
       # dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'] # when dependency is not on pypi
       zip_safe=False)
