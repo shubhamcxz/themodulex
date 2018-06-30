@@ -1,3 +1,5 @@
+MANIFEST.in
+README.rst
 setup.py
 themodulex/__init__.py
 themodulex/content.py
