@@ -1,9 +1,6 @@
 #compiled py modules
 *.pyc
-
 #
-dist/
-
+/dist/
 #
-
 *.egg-info
