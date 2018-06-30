@@ -14,11 +14,11 @@ def readme():
 
 
 setup(name='themodulex',
-      version='0.1',
+      version='0.2',
       description='Common utility functions for AI and Robotics research.',
       long_description=readme(),
       classifiers=[
-            'Development Status :: 3 - Alpha ', 'License :: OSI Approved :: MIT License',
+             'License :: OSI Approved :: MIT License',
             'Programming Language :: Python :: 3.5',
       ],
       keywords='Artificial Intelligence Robotics Research Python AI ML Deep Learning',
@@ -33,4 +33,5 @@ setup(name='themodulex',
       test_suite='nose.collector',
       tests_require=['nose'],
       # dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'] # when dependency is not on pypi
-      zip_safe=False)
+      zip_safe=False,
+      scripts=['bin/themodulex-cl-script'])
