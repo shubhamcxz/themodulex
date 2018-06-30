@@ -1,5 +1,5 @@
 #Some text materials
-imoprt numpy as np
+import numpy as np
 def get_latin_text(verbose=False):
     text = "Lorem ipsum dolor sit amet, vim malorum dissentiet ut, tollit laudem albucius qui ut. Eam clita vidisse et. Vix scriptorem omittantur ut. Mel in veritus percipit.
 

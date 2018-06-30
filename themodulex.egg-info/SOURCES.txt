@@ -1,6 +1,7 @@
 MANIFEST.in
 README.rst
 setup.py
+test/test_tmx.py
 themodulex/__init__.py
 themodulex/content.py
 themodulex.egg-info/PKG-INFO
