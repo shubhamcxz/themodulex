@@ -29,9 +29,12 @@ setup(name='themodulex',
       packages=['themodulex'],
       username="shubhamcxz",
       install_requires=['numpy',],
-      include_package_data=True,  # check what it does.
+      include_package_data=True,  # to include non python files in site-packages which are mentione din MANIFEST.in
       test_suite='nose.collector',
       tests_require=['nose'],
       # dependency_links=['http://github.com/user/repo/tarball/master#egg=package-1.0'] # when dependency is not on pypi
       zip_safe=False,
+      entry_points={
+            'console_scripts': ['themodulex-commandline=themodulex.command_line:main'],
+      }
       scripts=['bin/themodulex-cl-script'])
