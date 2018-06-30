@@ -2,7 +2,8 @@
 *.pyc
 
 #
-/dist/
+dist/
 
 #
-/*.egg-info
+
+*.egg-info
